@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 320px;
+    height: 350px;
+    padding: 10px;
+    box-shadow: 0px 0px 15px 2px rgb(193, 194, 195);
+}
+
+.card .profile{
+    height:65% ;
+    background-image: url('https://assets.gqindia.com/photos/5fdc6eb81c519f6c10ba2d2f/16:9/w_2560%2Cc_limit/Hrithik-Roshan%2520(2).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card .info{
+    text-align: center;
+}
+
+.card .info h2{
+    padding-block:10px;
+    letter-spacing: 1px;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.card .info a{
+    background-color: rgb(44, 129, 214);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 50px;
+    border-radius: 8px;
+}

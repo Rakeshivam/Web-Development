@@ -1,0 +1,67 @@
+/* h1::first-letter{
+    font-size: 40px;
+    color: red;
+    font-style: italic;
+}
+
+span{
+    display: inline-block;
+}
+
+span::first-letter{
+    color: red;
+    font-size: 40px;
+    font-style: italic;
+} */
+
+/* First Line */
+
+*::selection{
+    background-color: darkgreen;
+    color: white;
+}
+div::first-line{
+    background-color: yellow;
+}
+
+:where(h1,span)::selection{
+    background-color: darkgreen;
+    color: white;
+}
+
+div::selection{
+    background-color: magenta;
+}
+
+/* ::marker selector */
+
+/* ul > li::marker{
+    content: " ";
+    font-weight: bold;
+} */
+
+ul > li:nth-of-type(odd)::marker{
+    content: "😍 ";
+}
+
+ul > li:nth-of-type(even)::marker{
+    content:"😒 " ;
+}
+
+ul > li:nth-last-child(1)::marker{
+    content: "🤮 ";
+}
+
+
+h1::before{
+    content: "Venu ";
+}
+
+h1::after{
+    content: " Iyer";
+}
+
+
+input::placeholder{
+    color: red;
+}

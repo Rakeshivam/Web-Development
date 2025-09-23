@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+section{
+ min-height: inherit;   
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ /* background-attachment: fixed; */
+}
+
+.s1{
+    background-image: url('./Assets/BMW.jpg');
+    background-attachment: fixed;
+}
+.s2{
+    background-image: url('./Assets/Bugati.jpg');
+}
+.s3{
+    background-image: url('./Assets/Gwagon.png');
+    background-attachment: fixed;
+}
+.s4{
+    background-image: url('./Assets/Lamborghini.jpeg');
+}
+.s5{
+    background-image: url('./Assets/Supra.jpg');
+    background-attachment: fixed;
+}
+.s6{
+    background-image: url('./Assets/TarzonCar.jpg');
+}

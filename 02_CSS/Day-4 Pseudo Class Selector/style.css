@@ -1,0 +1,86 @@
+/* main :first-child{
+    color: orange;
+}
+
+main :last-child{
+    color: blue;
+}
+
+main :nth-child(2){
+    color: magenta;
+}    
+
+main :nth-last-child(2){
+    color: green;
+}
+
+
+main :first-child :first-child{
+    color: red;   
+}
+
+main :nth-child(2) :nth-child(2)
+{
+    color: blue;
+}
+
+main :last-child :last-child{
+    color: purple;
+}
+
+main :nth-last-child(1) :nth-last-child(1){
+    color: purple;
+}
+
+
+main > p:first-of-type{
+    color: red;
+}
+
+main p:last-of-type{
+    color: blue;
+}
+
+main p:nth-of-type(2){
+    color: purple;
+}
+
+main p:nth-last-of-type(2){
+    color: green;
+}
+*/
+
+/* Not Visited State */
+a:link{
+    color: tomato;
+}
+
+/* Active State */
+a:active{
+    color: green;
+}
+
+/* Visited state */
+a:visited{
+    color: royalblue;
+}
+
+/* :hover */
+button:hover{
+    background-color: #333;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+}
+
+input:focus{
+    border: 1.5px solid red;
+    outline: none;
+    border-radius: 3px;
+}

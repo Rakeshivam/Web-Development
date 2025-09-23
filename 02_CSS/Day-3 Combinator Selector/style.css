@@ -1,0 +1,44 @@
+/*
+! Direct Child Selector
+main > .p1{
+    color: red;
+}
+
+main > .p3{
+    color: magenta;
+}
+
+ main > article > .p2{
+    color: blue;
+} 
+
+
+
+main .p1{
+    color: magenta;
+}
+
+main .p3{
+    color: orange;
+}
+
+main .p2{
+    color: red;
+}
+
+
+main .para,
+main .d2{
+    color: red;
+}
+*/
+
+/* article .p1 + p + span + div 
+{
+    color: orange;
+} */
+
+article .p1 ~ div{
+    color: magenta;
+}
+

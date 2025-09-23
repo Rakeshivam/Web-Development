@@ -1,0 +1,42 @@
+/* 
+! Difference between display none, visibility hidden and opacity 0?
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 1200px;
+    height: 600px;   
+    border: 2px solid black;
+    background-color: wheat;
+}
+
+#container .card{
+    width: 200px;
+    height: 250px;
+    font-size: 40px;
+    display: inline-block;
+}
+
+#container .c1{
+    background-color: violet; 
+}
+
+#container .c2{
+    background-color: springgreen; 
+}
+
+#container .c3{
+    background-color: tomato;
+}

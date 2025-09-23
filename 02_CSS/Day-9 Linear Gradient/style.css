@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+}
+
+div{
+    font-size: 100px;
+    font-weight: bold;
+   
+    /* background-image:linear-gradient(to bottom left,red, yellow); */
+    background: linear-gradient(45deg,rgba(255, 0, 0, 1) 0%, rgba(250, 10, 186, 1) 100%);
+
+    color: transparent;
+    background-clip: text;
+}

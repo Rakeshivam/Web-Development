@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#container {
+  width: 1200px;
+  height: 500px;
+  background-color: tan;
+  margin: auto;
+  overflow: hidden;
+}
+
+#container .card {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+  border: 2px solid black;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+#container .card .profile {
+  height: 60%; /*180px*/
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/71/47/c2/seafood-buffet-at-mezz.jpg?w=900&h=500&s=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#container .card .info {
+  height: 40%;
+  text-align: center;
+}
+
+#container h2 {
+  margin-block: 5px 0px;
+}
+
+#container p {
+  margin-bottom: 10px;
+}
+
+#container button {
+  width: 90%;
+  padding: 8px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

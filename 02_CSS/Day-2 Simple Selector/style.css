@@ -1,0 +1,54 @@
+/*
+! Simple Selector:-
+ 1. Tagname Selector/ Element Selector
+ 2. Id Selector (#)
+ 3. class selector (.)
+ 4. Universal Selector/ Wildcard selector (*) :- CSS Boilerplate code
+ 5. Grouping Selector (,)
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 0,1,1 
+p.p1{
+    color: red;
+}
+*/
+
+/* 0,1,0 
+.whatever{
+    color: darkgreen;
+}
+
+div#d1{
+    color: purple;
+}
+*/
+
+#d2,
+.p2,
+span
+{
+    color: tomato;
+}
+
+*{
+    color: green !important;
+}
+
+/*
+    ! According to Priority
+    1. !important
+    2. Id selector (#)
+    3. Class Selector (.)
+    4. Tagname/ Element Selector
+    5. Universal Selector
+
+*/
+
+
+

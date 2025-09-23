@@ -1,0 +1,81 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+section{
+    min-height: inherit;
+}
+
+section #container{
+    width: 1200px;
+    margin: auto;
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+section .card{
+    width: 350px;
+    height: 380px;
+    box-shadow:  0px 6.4px 1.8rem rgba(28, 28, 28, 0.12);
+    padding: 10px;
+    border-radius: 10px;
+} 
+
+section .card .profile{
+    height: 65%;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+}
+
+section .c1 .profile{
+ background-image: url('./Assets/restaurant1.jpg');
+}
+
+section .c2 .profile{
+ background-image: url('./Assets/restaurant2.jpg');
+}
+
+section .c3 .profile{
+    background-image: url('./Assets/restaurant3.webp');
+
+}
+
+
+section .card .info{
+    height: 35%;
+    /* background-color: chartreuse; */
+}
+
+section .info h3{
+    font-weight: 500;
+    font-size: 19px;
+    margin-block: 10px;
+}
+
+section p:first-of-type{
+    color: rgb(105, 105, 105);
+    padding: 0px 0px 6.4px;
+}
+
+section p:last-of-type{
+    color: rgb(156, 156, 156);
+    padding: 0px 0px 6.4px;
+}
+
+section .info span{
+    color: rgb(171, 0, 13);
+    padding: 0px 0px 6.4px;
+}
