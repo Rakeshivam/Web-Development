@@ -1,0 +1,61 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+/* Hero Section Design */
+#hero{
+    height:70vh;
+    background-color: tomato;
+    display: flex;
+    /* flex-direction:row */
+}
+
+
+#hero .left{
+    width: 60%;
+    height: 100%;
+    background-color: springgreen;
+}
+
+#hero .right{
+    width: 40%;
+    height: 100%;
+    /* background-color: steelblue; */
+}
+
+
+#hero .left-container{
+    max-width: fit-content;
+    border: 3px solid black;
+}
+
+#hero .left-container h4{
+    font-size: 25px;
+}
+
+#hero .left-container h2{
+    font-size: 30px;
+}
+
+#hero .left-container .icon-container{
+    background-color: violet;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction:row */
+}
+
+#hero .icon-container .icon{
+    font-size: 25px;
+}
