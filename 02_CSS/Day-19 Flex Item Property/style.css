@@ -1,0 +1,100 @@
+/* *,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#home{
+    height: 600px;
+    background-color: wheat;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#home .card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#home .c1{
+      font-size: 50px;
+    background-color: violet;
+    order: 2;
+    align-self: baseline;
+}
+
+#home .c2{
+      font-size: 40px;
+    background-color: springgreen;
+    order: 3;
+    align-self: baseline;    
+}
+
+#home .c3{
+    font-size: 30px;
+    background-color: tomato;
+    flex-basis: 300px;
+    order: 1;
+     align-self: baseline;
+} */
+
+/*
+! Flex grow
+*/
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+#home{
+    height: 600px;
+    background-color: wheat;
+    display: flex;
+}
+
+#home .left{
+    /* width: 50%; */
+    flex-grow:60;
+    flex-shrink:60;
+    height: 100%;
+    background-color: springgreen;
+}
+
+#home .right{
+    /* width: 50%; */
+    flex-grow: 40;
+    flex-shrink: 1;
+    min-width: 200px;
+    height: 100%;
+    background-color: tomato;
+}
+
