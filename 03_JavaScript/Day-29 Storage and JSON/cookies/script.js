@@ -1,0 +1,1 @@
+document.cookie="token=Me_nhi_btaunga;maxAge=300000;"

@@ -1,0 +1,54 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+section{
+    height: 100vh;
+}
+
+section .cardContainer
+{
+    width: 1200px;
+    height: 100%;
+    margin:auto;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+section .card{
+    width: 200px;
+    height: 250px;
+    border: 2px solid #e0dfdf;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section .c1{
+    background-color: lightcoral;
+}
+
+section .c2{
+    background-color: lightblue;
+}
+
+section .c3{
+    background-color: lightgreen;
+}
+
+section .c4{
+    background-color: lightsalmon;
+}
